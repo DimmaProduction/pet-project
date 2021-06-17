@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+.bg {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* color: rgb(255, 0, 0); */
+    background-color: rgba(0,0,0, .2);
+    background-color: #F7F7FC;
+    z-index: 101;
+}
+
+.main {
+    position: absolute;
+    width: 50%;
+    height: 80%;
+    
+
+    /* background: #FFFFFF; */
+    display: grid;
+
+    grid-template-areas:
+    "name"
+    "errors"
+    "body"
+    "btn";
+    grid-template-rows: 120px 40px 1fr 200px;
+  /* grid-gap: 10px; */
+
+    /* Line */
+    /* border: 1px solid #D6D8E7;
+    box-sizing: border-box;
+    border-radius: 16px; */
+}
+
+.name {
+    grid-area: name;
+    margin: 40px auto 0px;
+    /* background-color: red; */
+}
+
+.name h2{
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 27px;
+    letter-spacing: 0.75px;
+    
+    color: #14142B;
+    display: block;
+  
+    /* background-color: red; */
+}
+
+.body {
+    /* vertical-align: middle; */
+    vertical-align: bottom;
+    width: 45%;
+    margin: 60px auto 0px;
+
+    grid-area: body;
+    /* background-color: blue; */
+    /* border: 1px solid red; */
+}
+
+.btn {
+    grid-area: btn;
+    margin-top: 20px;
+    /* background-color: yellow; */
+}
+
+.errorsForm {
+    grid-area: errors;
+    width: 45%;
+    margin: 0px auto;
+
+}
+
+.modalFooter {
+    position: absolute;
+    left: 32%;
+    bottom: 5%;
+}
+
+.btnSubmit {
+    /* position: absolute; */
+    display: inline-block;
+    width: 115px;
+    height: 45px;
+
+    /* Auto Layout */
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    transition: 0.2s all;
+    /* Input bg */
+
+    background: #EFF0F6;
+    border-radius: 12px;
+    border: none;
+}
+
+.btnSubmit:disabled {
+    background: #e7e8f1;
+    border: 1px solid #aaaaaa;
+    cursor: not-allowed;
+    opacity: 0.4; 
+}
+
+.btnSubmit:hover {
+    width: 120px;
+}
+
+.btnText {
+    font-family: Poppins;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 36px;
+    transition: 0.2s all;
+    /* identical to box height */
+    letter-spacing: 0.75px;
+    color:  #4E4B66;;
+    /* margin: 0px 10px; */
+}
+
+.btnText:hover {
+
+    font-size: 21px;
+    /* identical to box height */
+    /* letter-spacing: 0.75px; */
+    color:  #4a4761;;
+    /* margin: 0px 10px; */
+}
+
+span {
+    /* background-color: blue; */
+}
+
+input {
+    width: 98%;
+    outline:none;
+    border:0; 
+    border-bottom: 1px solid #14142B;
+    -webkit-transition: 0.4s all;
+    cursor: text;
+    background: transparent;
+
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    letter-spacing: 0.75px;
+    line-height: 27px;
+}
+/* input:hover {
+    width: 101%;
+    border-bottom: 1px solid #14142B;
+} */
+input:focus {
+    border-bottom: 1px solid #ff0000;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 27px;
+    position: relative;
+    text-align: left;
+    margin: 10px auto 0px ;
+    padding-top: 10px;
+    /* identical to box height */
+    letter-spacing: 0.75px;
+    /* Label */
+    color: #6E7191;
+}
+
+label {
+
+    position: relative;
+    top: 8px;
+
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 0.75px;
+    
+    
+    color: #14142B;
+    display: inline;
+
+}  
+
+
+
+
+
+

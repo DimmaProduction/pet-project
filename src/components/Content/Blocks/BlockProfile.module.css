@@ -1,0 +1,83 @@
+
+.block {
+  display: inline-block;
+  background-color: #ffffff;
+  /* margin: 10px; */
+
+  width: auto;
+  height: 238px;
+
+  /* Line */
+  border: 1px solid #D6D8E7;
+  box-sizing: border-box;
+  border-radius: 16px;
+}
+
+.infoBlock {
+  margin-top: 24px;
+}
+
+.btn {
+  margin-top: 19px;
+
+}
+
+.btnEdit {
+  display: inline-block;
+  width: 50%;
+  height: 35px;
+  
+  /* background: transparent; */
+  background: white;
+  transition-duration: 0.4s;
+
+  /* Line */
+  border: 1px solid #D6D8E7;
+  box-sizing: border-box;
+  border-radius: 0px 0px 0px 16px;
+}
+
+.btnEdit{
+  /* background: "url('"+ "/test_project/public/img/edit.svg"+"')" 5px center no-repeat; */
+  /* background: url('https://www.shareicon.net/data/128x128/2016/07/10/119178_chat_512x512.png') 5px center no-repeat; */
+  background-size: 18px;
+}
+
+.btnEdit:hover{
+  /* background: #624AF2 url('https://www.shareicon.net/data/512x512/2016/01/03/697450_chat_512x512.png'); */
+  background: #624AF2 ;
+  background-repeat: no-repeat;
+  background-position: 10px right;
+  color: #fff;
+  /* background: url('https://www.shareicon.net/data/512x512/2016/01/03/697450_chat_512x512.png') 5px center no-repeat; */
+  background-size: 18px;
+}
+
+.btnDelete {
+  display: inline-block;
+
+  width: 50%; 
+  height: 35px;
+
+  cursor: pointer;
+  transition-duration: 0.4s;
+
+  background: white;
+  /* background: transparent; */
+
+  /* Line */
+  border: 1px solid #D6D8E7;
+  box-sizing: border-box;
+  border-radius: 0px 0px 16px 0px;
+}
+
+.btnDelete:hover{
+  background-color: #EB0055;
+  color: #fff;
+}
+
+.btn img  {
+  width: 17px;
+  vertical-align: middle;
+}
+
