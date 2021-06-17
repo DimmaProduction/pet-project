@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/pet-project/static/css/main.a1515e22.chunk.css",
+    "main.js": "/pet-project/static/js/main.c9722d12.chunk.js",
+    "main.js.map": "/pet-project/static/js/main.c9722d12.chunk.js.map",
+    "runtime-main.js": "/pet-project/static/js/runtime-main.0317c417.js",
+    "runtime-main.js.map": "/pet-project/static/js/runtime-main.0317c417.js.map",
+    "static/js/2.f0d77063.chunk.js": "/pet-project/static/js/2.f0d77063.chunk.js",
+    "static/js/2.f0d77063.chunk.js.map": "/pet-project/static/js/2.f0d77063.chunk.js.map",
+    "index.html": "/pet-project/index.html",
+    "static/css/main.a1515e22.chunk.css.map": "/pet-project/static/css/main.a1515e22.chunk.css.map",
+    "static/js/2.f0d77063.chunk.js.LICENSE.txt": "/pet-project/static/js/2.f0d77063.chunk.js.LICENSE.txt",
+    "static/media/Group.f6ab8f16.svg": "/pet-project/static/media/Group.f6ab8f16.svg",
+    "static/media/close.11cb87fc.svg": "/pet-project/static/media/close.11cb87fc.svg",
+    "static/media/delete.ef20aa36.svg": "/pet-project/static/media/delete.ef20aa36.svg",
+    "static/media/edit.5d15a29a.svg": "/pet-project/static/media/edit.5d15a29a.svg",
+    "static/media/submit.9e34c10e.svg": "/pet-project/static/media/submit.9e34c10e.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0317c417.js",
+    "static/js/2.f0d77063.chunk.js",
+    "static/css/main.a1515e22.chunk.css",
+    "static/js/main.c9722d12.chunk.js"
+  ]
+}
